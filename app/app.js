@@ -28,7 +28,7 @@ app.get("/db_test", function(req, res) {
 // Create a route for /goodbye
 // Responds to a 'GET' request
 app.get("/goodbye", function(req, res) {
-    res.send("Goodbye Everybody!");
+    res.send("Goodbye !! Everybody!");
 });
 
 // Create a dynamic route for /hello/<name>, where name is any value provided by user
